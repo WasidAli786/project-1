@@ -1,0 +1,33 @@
+.hidden-img1:hover{
+    opacity: 0.6;
+}
+.hidden-img1:hover .hidden-txt{
+    display: none;
+}
+.icon{
+    transition: .5s;
+}
+.icon:hover{
+    background-color: #F7A804 !important;
+}
+.icon>i{
+    transition: .5s;
+}
+.icon:hover.icon>i{
+    color: white !important;
+    transition-delay: 1s;
+}
+.iconic i{
+    height: 35px;
+    width: 40px;
+    background-color: #0E74A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: .5s;
+}
+.iconic i:hover{
+    cursor: pointer;
+    background-color: #209ed8;
+}
